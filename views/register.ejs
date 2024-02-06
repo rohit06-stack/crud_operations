@@ -1,0 +1,32 @@
+<%- include('./base/header.ejs')%>
+<div class="container">
+  <div class="row">
+      <div class="col-3"></div>
+      <div class="col-6">
+          <form action="" method="POST">
+          <div class="mb-3">
+            <label for="name" class="form-label">NAME</label>
+            <input type="text" name="name" class="form-control" id="name">
+          </div>
+          <div class="mb-3">
+            <label for="age" class="form-label">Age</label>
+            <input type="number" name="age" class="form-control" id="age">
+          </div>
+          <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="text" name="email" class="form-control" id="email">
+            </div>
+            <div class="mb-3">
+              <label for="pwd" class="form-label">Password</label>
+              <input type="password" name="pwd" class="form-control" id="pwd">
+            </div>
+            <div class="mb-3">
+              <label for="city" class="form-label">City</label>
+              <input type="text" name="city" class="form-control" id="city">
+            </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+      <div class="col-3"></div>
+  </div>
+  <%- include('./base/footer.ejs')%>

@@ -1,0 +1,22 @@
+<%- include('./base/header.ejs') %>
+<div class="container">
+    <div class="row">
+        <div class="col"></div>
+        <div class="col-6 shadow p-3 mb-5 bg-body rounded my-5">
+            <h4 class="text-center">Login Here</h4>
+            <form action="" method="POST">
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email address</label>
+                  <input type="email" name="email" class="form-control" id="email">
+                </div>
+                <div class="mb-3">
+                  <label for="pwd" class="form-label">Password</label>
+                  <input type="password" name="pwd" class="form-control" id="pwd">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+        </div>
+        <div class="col"></div>
+    </div>
+</div>
+<%- include('./base/footer.ejs')%>
